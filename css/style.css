@@ -27,7 +27,7 @@ ul, li {
     color: #868686;
 }
 /* header */
-.header > div {
+.header {
     color: white;
     text-align: center;
     padding: 180px 0;
@@ -43,25 +43,18 @@ ul, li {
     margin-bottom: 100px;
 }
 .button {
+    text-transform: uppercase;
+    cursor: pointer;
     padding: 10px 25px;
     margin: 0 10px;
     color: white;
-    transition: 0.3s;   
-}
-.button_empty {
-    background: transparent;
-    border: 2px solid white;
-}
-.button_full {
+    transition: 0.3s;
     background-color: #00897b;
-    border: 2px solid#00897b;
+    border: 2px solid#00897b;   
 }
-
-.button_empty:hover,
-.button_full:hover {
-    border: 2px dotted  white;
-    background: #216d65;
-    cursor: pointer;
+.button:hover {
+    background: transparent;
+    border: 2px solid white; 
 }
 /* about us */
 .about {
@@ -76,7 +69,6 @@ ul, li {
     font-weight: bold;
 }
 .about__text {
-    /* color: #212121; */
     font-size: 15px;
     margin-bottom: 110px;
 }
@@ -118,7 +110,9 @@ ul, li {
     color: black;
 }
 .button-services {
+    margin-top: 20px;
     transition: 0.3s;
+    color: black;
     text-transform: uppercase;
     border: 2px solid black;
     background: transparent;
@@ -127,4 +121,21 @@ ul, li {
 }
 .button-services:hover {
     cursor: pointer;
+}
+/* portfolio */
+.portfolio {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 135px;
+}
+.portfolio button:hover {
+    color: black;
+    border: 2px solid #00897b;
+    background: transparent; 
+}
+.portfolio img {
+    margin-bottom: 30px;
+}
+.filter {
+    padding: 120px 0;
 }
