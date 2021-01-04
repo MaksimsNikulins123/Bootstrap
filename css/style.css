@@ -128,14 +128,34 @@ ul, li {
     padding-top: 120px;
     padding-bottom: 135px;
 }
-.portfolio button:hover {
+.portfolio button:hover,
+.focused {
     color: black;
     border: 2px solid #00897b;
     background: transparent; 
 }
-.portfolio img {
+.portfolio img {   
     margin-bottom: 30px;
 }
 .filter {
     padding: 120px 0;
+}
+div[filter] {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+div[filter]:hover img {
+    filter: brightness(50%);
+    transition: 0.3s;
+}
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+div[filter]:hover  .text {
+    display: block;
 }
