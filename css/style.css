@@ -159,3 +159,74 @@ div[filter]:hover img {
 div[filter]:hover  .text {
     display: block;
 }
+/* pricing plan */
+.pricing {
+    padding-top: 165px;
+    padding-bottom: 125px;
+    color: black;
+    background: #b4b6b5;
+    text-align: center; 
+}
+.price {
+    background: #fff;
+    transition: 0.3s;
+}
+.price:hover {
+    box-shadow: 0 3px 25px rgba(0, 0, 0, 0.35);
+}
+.price__head {
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 65px;
+    background-image: url(../img/priceHead.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 240px;
+    
+}
+.price__head p {
+    font-size: 25px;
+}
+.price__head {
+    font-size: 50px;
+}
+.price__head sub {
+    vertical-align: middle;
+    font-size: 17px;
+}
+.price__head sup {
+    vertical-align: middle;
+    font-size: 25px;
+}
+.price__body {
+    font-size: 17px;
+    color: #212121;
+    
+}
+.price__body ul li {
+    padding-top: 28px;
+    padding-bottom: 12px;
+    margin: 0 auto;
+    max-width: 175px;
+    border-bottom: 1px solid #bfbfbf;
+}
+.price__footer {
+    padding: 60px 0;
+    
+}
+.price__footer button { 
+    cursor: pointer;
+    color: #212121;
+    background: transparent;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 2px solid #212121;
+    transition: 0.3s;
+    min-height: 65px;
+}
+.price__footer button:hover {
+    text-transform: uppercase;
+    color: white;
+    background: #00897b;
+    border: none;   
+}
