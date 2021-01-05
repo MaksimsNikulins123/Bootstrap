@@ -230,3 +230,58 @@ div[filter]:hover  .text {
     background: #00897b;
     border: none;   
 }
+/* team */
+.team {
+    padding-top: 165px;
+    padding-bottom: 125px;
+    color: black;
+    background: #fff;
+    text-align: center; 
+}
+.team h4 {
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Open Sans Semibold';
+}
+.team p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.icons {
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+}
+.icons a i {
+    transition: 0.3s;
+}
+.icons i:nth-child(1) {
+    color: #f0f1f1;
+}
+.icons i:nth-child(2) {
+    color: #00897b;
+}
+.icons a:hover i:nth-child(1) {
+    color: #3949ab;
+}
+.icons a:hover i:nth-child(2) {
+    color: #ffffff;
+}
+.carousel-indicators a {
+    margin: 5px;
+}
+.carousel-indicators i:nth-child(1) {
+    color: #00897b;
+}
+.carousel-indicators a:hover i:nth-child(1) {
+    color: #00897b;
+}
+/* blog */
+.blog {
+    padding-top: 125px;
+    padding-bottom: 125px;
+    color: black;
+    background: #e4fdf9;
+    text-align: center; 
+}
+
