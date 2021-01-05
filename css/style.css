@@ -274,7 +274,7 @@ div[filter]:hover  .text {
     color: #00897b;
 }
 .carousel-indicators a:hover i:nth-child(1) {
-    color: #00897b;
+    color: #3949ab;
 }
 /* blog */
 .blog {
@@ -283,5 +283,72 @@ div[filter]:hover  .text {
     color: black;
     background: #e4fdf9;
     text-align: center; 
+}
+.left > div:first-child {
+    order: 1;
+}
+.left > div:last-child {
+    order: 2;
+}
+.right > div:first-child {
+    order: 2;
+}
+.right > div:last-child {
+    order: 1;
+}
+.blog-content {
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 33px;
+}
+.blog-content a {
+    font-family: 'Open Sans Semibold';
+    text-decoration: none;
+    font-size: 25px;
+    color: #212121;
+}
+.blog-content:hover a {
+    font-size: 25px;
+    color: #259c8f;
+}
+.blog-content div {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.blog-content span {
+    font-size: 17px;
+    font-family: 'Open Sans Semibold';
+    margin-right: 40px;
+}
+.blog-content i {
+    margin-right: 15px;
+}
+.blog-content p {
+    font-size: 15px;
+    width: 433px
+}
+.left, .right {
+    margin: 0 -30px;
+}
+.button_blog {
+    cursor: pointer;
+    width: 220px;
+    height: 70px;
+    text-transform: uppercase;
+    color: #212121;
+    font-size: 20px;
+    margin-top: 125px;
+    border: 2px solid #212121;
+    background: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    transition: 0.3s;
+    min-height: 65px;
+}
+.button_blog:hover {
+    text-transform: uppercase;
+    color: white;
+    background: #00897b;
+    border: none;   
 }
 
